@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2a8ecc86.css",
+    "main.js": "/static/js/main.21c9d7c8.js",
+    "static/js/879.f144417e.chunk.js": "/static/js/879.f144417e.chunk.js",
+    "static/js/453.6521e15a.chunk.js": "/static/js/453.6521e15a.chunk.js",
+    "static/media/banner.webp": "/static/media/banner.f81fe86c3556c3b402d0.webp",
+    "static/media/duck.svg": "/static/media/duck.224e88d587a26c1ed5b549c8fbb10680.svg",
+    "static/media/info_iacon_two.svg": "/static/media/info_iacon_two.3e7fd15c6716e28735d30f70fc977e61.svg",
+    "static/media/info_iacon_fore.svg": "/static/media/info_iacon_fore.c87925b579f374816a93184490ad668c.svg",
+    "static/media/info_iacon_three.svg": "/static/media/info_iacon_three.21c1df77ffec95eec3d03389a86a0ba7.svg",
+    "static/media/info_iacon_one.svg": "/static/media/info_iacon_one.02a42c441bc322ab1828e8fae71bb53f.svg",
+    "static/media/Manrope-Regular.ttf": "/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
+    "static/media/banner_mobile.webp": "/static/media/banner_mobile.66f57247150b21657664.webp",
+    "static/media/Bebas-Neue.ttf": "/static/media/Bebas-Neue.f39fe92d35bac3b2fe60.ttf",
+    "static/media/logo.webp": "/static/media/logo.29eae8f1b17c6efb0afc.webp",
+    "static/media/instagram.svg": "/static/media/instagram.5230c3015989f99c813512f1b9d0114b.svg",
+    "static/media/telegram.svg": "/static/media/telegram.df64feac4fcaaf8ae728317d3ce090d1.svg",
+    "static/media/vk.svg": "/static/media/vk.beb4b9aec68e00f09e274c179540e641.svg",
+    "index.html": "/index.html",
+    "static/media/arrows_botton.svg": "/static/media/arrows_botton.8de2798f489a60266e312e76bf4a6271.svg",
+    "static/media/arrows_top.svg": "/static/media/arrows_top.57123d41af949192eebcb2d5ce71e663.svg",
+    "main.2a8ecc86.css.map": "/static/css/main.2a8ecc86.css.map",
+    "main.21c9d7c8.js.map": "/static/js/main.21c9d7c8.js.map",
+    "879.f144417e.chunk.js.map": "/static/js/879.f144417e.chunk.js.map",
+    "453.6521e15a.chunk.js.map": "/static/js/453.6521e15a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a8ecc86.css",
+    "static/js/main.21c9d7c8.js"
+  ]
+}
