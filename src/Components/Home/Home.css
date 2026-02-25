@@ -1,0 +1,41 @@
+.banner_mobile{
+    display: none;
+  }
+
+  .banner_desktop img{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner_mobile h1 {
+    color: white;
+    font-size: 5.1vw;
+    font-weight: 400;
+    font-family: 'Bebas-Neue';
+  }
+
+  @media  (max-width: 600px){
+    .banner_mobile{
+      display: flex;
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .banner_mobile img{
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .banner_desktop{
+      background-color: #e0e0e0;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: none;
+    }
+  }

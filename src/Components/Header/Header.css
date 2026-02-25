@@ -1,0 +1,85 @@
+/* Header.css */
+.header {
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 3.472vw 2vw;
+    position: relative;
+  }
+  
+  .logo img {
+    position: absolute;
+    width: 9.067vw;
+    top: 0;
+  }
+
+  .nav-items{
+    margin: 0 auto;
+  }
+  
+  .nav-items a {
+    color: white;
+    margin: 0 1.5vw;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 1.244vw;
+    font-family: 'Manrope-Regular';
+  }
+  
+  .nav-items a:hover {
+    color: #ccc;
+  }
+  
+
+  .login-link {
+    background-color: transparent;
+    border: 0.052vw solid #fff;
+    font-family: 'Manrope-Regular';
+    color: white;
+    padding: 0.62vw 0.98vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.244vw;
+    margin: 0.21vw 0.1vw;
+    cursor: pointer;
+    border-radius: 0.42vw;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+}
+
+.login-link:hover {
+    border: 0.052vw solid rgba(255, 255, 255, 0.815);
+}
+
+@media  (max-width: 600px){
+  .nav-items a {
+    color: white;
+    margin: 0 1.5vw;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 4vw;
+    font-family: 'Manrope-Regular';
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 16.472vw 2vw;
+    position: relative;
+  }
+
+  .logo img {
+    position: absolute;
+    width: 14vw;
+    top: 0;
+    left: 4vw;
+  }
+}

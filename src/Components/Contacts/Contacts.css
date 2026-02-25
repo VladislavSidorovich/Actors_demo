@@ -1,0 +1,114 @@
+/* Contacts.css */
+.contacts-page {
+    padding-left: 18.497vw;
+    background-color: #111;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  
+  .contacts-page h2 {
+    text-align: center;
+    font-size: 4.352vw;
+    margin: 0;
+    margin-right: 13vw;
+    padding-bottom: 1vw;
+    font-family: 'Bebas-Neue';
+    font-weight: 300;
+    padding-left: 0;
+  }
+  
+  .contacts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+  }
+  
+  .contact-card {
+    display: flex;
+    padding: 1vw;
+    align-items: center;
+  }
+  
+  .images_conteiner{
+    width: 17.24vw;
+    height: 25.269vw;
+    background-color: #e0e0e0;
+    margin-right: 2vw;
+  }
+
+  .contact-card img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .contact-info h3 {
+    font-size: 1.658vw;
+    margin: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Manrope-Regular';
+  }
+  
+  .contact-info p {
+    width: 20vw;
+    font-size: 0.98vw;
+    margin: 0.5vw 0;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-family: 'Manrope-Regular';
+  }
+
+  @media  (max-width: 600px){
+    .contacts-page {
+      padding: 0 7vw;
+      background-color: #111;
+      color: white;
+      min-height: 100vh;
+    }
+
+    .ontacts-page h2 {
+      text-align: center;
+      font-size: 12.352vw;
+      margin: 0;
+      margin-right: 13vw;
+      padding-bottom: 6vw;
+      font-family: 'Bebas-Neue';
+      font-weight: 300;
+      padding-left: 0;
+    }
+
+    .contacts-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 2vw;
+    }
+
+    .images_conteiner{
+      width: 30.7vw;
+      height: 45.269vw;
+      background-color: #e0e0e0;
+      margin-right: 2vw;
+    }
+  
+    .contact-card img {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .contact-info h3 {
+      font-size: 4.658vw;
+      margin: 0;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-family: 'Manrope-Regular';
+    }
+    
+    .contact-info p {
+      font-size: 2.6vw;
+      margin: 0.5vw 0;
+      font-weight: 200;
+      text-transform: uppercase;
+      font-family: 'Manrope-Regular';
+    }
+  }

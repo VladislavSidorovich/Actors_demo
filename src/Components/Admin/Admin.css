@@ -1,0 +1,67 @@
+.admin{
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin h2{
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-top: 4vw;
+}
+
+.admin button{
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.8vw 1.5vw;
+  background-color: #111;
+}
+
+.admin-nav{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 3vw;
+  justify-content: space-between;
+  width: 15vw;
+}
+
+.actors-container{
+  margin-top: 2vw;
+}
+
+.actors-container button{
+  display: flex;
+  margin: 0 auto;
+}
+
+.actors-container-content{
+  display: flex;
+  width: 78vw;
+  margin: 0 auto;
+}
+
+.actors-container-content ul{
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 2vw;
+}
+
+.actors-container-content ul li img{
+  width: 14vw;
+  height: auto;
+}
+
+.list-button{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1vw;
+}
+
+.list-button button{
+  margin: 0;
+}

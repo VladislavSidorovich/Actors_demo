@@ -1,0 +1,483 @@
+/* ActorsInfo.css */
+.actors-info-page {
+    padding: 2vw;
+    background-color: #111;
+    color: white;
+  }
+  
+.actors-info-page-content{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 22vw;
+  padding-right: 2vw;
+  position: relative;
+}
+  
+.actor-info h2 {
+    width: 29vw;
+    text-align: left;
+    font-size: 4.974vw;
+    padding: 0;
+    margin: 0;
+}
+
+.actor-info h3 {
+  text-align: left;
+  font-size: 1.1vw;
+  padding: 0;
+  margin: 0;
+  font-family: 'Manrope-Regular';
+  font-weight: 600;
+  padding-top: 1vw;
+  padding-bottom: 3vw;
+  text-transform: uppercase;
+}
+
+.actor-info h4 {
+  width: 29vw;
+  text-align: left;
+  font-size: 1.05vw;
+  padding: 0;
+  margin: 0;
+  font-family: 'Manrope-Regular';
+  font-weight: 600;
+  padding-top: 2vw;
+  text-transform: uppercase;
+}
+
+.actor-info p {
+  width: 29vw;
+  text-align: left;
+  font-size: 1.036vw;
+  padding: 0;
+  margin: 0;
+  font-family: 'Manrope-Regular';
+  font-weight: 300;
+  padding-bottom: 2vw;
+  text-transform: uppercase;
+}
+
+.social-icons a{
+  text-decoration: none;
+  text-transform: none;
+}
+
+.social-icons img {
+  width: 3.8vw;
+  margin: 0;
+  margin-top: 0.79vw;
+  margin-right: 1vw;
+}
+
+.social-number {
+  padding-top: 10.5vw;
+}
+
+.social-number p{
+  font-size: 1.3vw;
+  padding: 0;
+  margin: 0;
+  font-family: 'Manrope-Regular';
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+.actor-info-details{
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  padding: 0 4;
+  padding-left: 1vw;
+  position: relative;
+}
+
+.actor-info-film{
+  border-right: 1px solid #fff;
+  padding-right: 6vw ;
+  padding-bottom: 10vw;
+  margin-bottom: 4vw;
+}
+
+.actor-info-film h2{
+  text-align: right;
+  font-size: 2.487vw;
+  padding: 0;
+  margin: 0;
+}
+
+.actor-info-film h3{
+  font-weight: 600;
+  font-size: 1vw;
+  padding-left: 18vw;
+}
+
+.actor-info-film p{
+  width: 25vw;
+  font-weight: 300;
+  font-size: 0.829vw;
+  padding-left: 18vw;
+}
+
+
+.actor-info-nav h2{
+  text-align: left;
+  font-size: 2.487vw;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.actor-info-nav  h3{
+  font-weight: 600;
+  font-size: 1vw;
+}
+
+.actor-info-nav  p{
+  width: 25vw;
+  font-weight: 300;
+  font-size: 0.829vw;
+  margin: 0;
+  padding: 0;
+}
+
+.actor-info-nav {
+  padding-right: 18vw;
+  padding-bottom: 7vw;
+}
+
+  
+  .actor-photo img {
+    width: 20vw;
+    height: auto;
+    margin-right: 2vw;
+  }
+  
+  .actor-info {
+    font-size: 1vw;
+  }
+  
+  
+  .gallery_info {
+    margin-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+  }
+  
+  .gallery_info h2 {
+    font-size: 4.974vw;
+    text-align: center;
+    color: #fff;
+    padding-left: 0;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2vw;
+  }
+  
+  .gallery-images_info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-images_info img {
+    width: 33.21%;
+    height: auto;
+  }
+
+  img.horizontal{
+    width: 50%;
+  }
+
+  img.vertical{
+    width: 33.31vw;
+  }
+
+  .video{
+    display: flex;
+    position: relative;
+  }
+  
+  .video h2 {
+    display: flex;
+    font-size: 4.974vw;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    padding-left: 4vw;
+  }
+  
+  .video iframe {
+    width: 40.933vw;
+    height: 23.933vw;
+    padding: 4vw;
+    padding-left: 15vw;
+  }
+
+img.actor-info_absolute_imagas{
+  position: absolute;
+  left: 42.5vw;
+  top: 1vw;
+  width: 3.731vw;
+}
+
+img.actor-info-nav_absolute_imagas{
+  position: absolute;
+  right: 6vw;
+  width: 15.389vw;
+}
+
+img.gallery_absolute_imagas{
+  position: absolute;
+  width: 5.907vw;
+  right: 39.5vw;
+  top: -3.5vw;
+}
+
+img.video_absolute_imagas{
+  position: absolute;
+  right: 10vw;
+  top: 17vw;
+  width: 23.575vw;
+}
+
+.mobile{
+  display: none;
+}
+
+h2.role{
+  padding-top: 2vw;
+}
+
+@media  (max-width: 600px){
+  .disktop{
+    display: none;
+  }
+  
+  .mobile{
+    display: flex;
+  }
+
+  .actor-photo img {
+    display: none;
+    width: 20vw;
+    height: auto;
+    margin-right: 2vw;
+  }
+
+  .actors-info-page-content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 14vw;
+    padding-right: 2vw;
+    position: relative;
+  }
+    
+   
+.actor-info h2 {
+    width: 100%;
+    text-align: left;
+    font-size: 8.974vw;
+    padding: 0;
+    margin: 0;
+}
+
+.actor-info h3 {
+  text-align: left;
+  font-size: 3.1vw;
+  padding: 0;
+  margin: 0;
+  font-family: 'Manrope-Regular';
+  font-weight: 600;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  text-transform: uppercase;
+}
+
+.actor-info h4 {
+  text-align: left;
+  font-size: 2.5vw;
+  padding: 0;
+  margin: 0;
+  font-family: 'Manrope-Regular';
+  font-weight: 600;
+  padding-top: 3vw;
+  text-transform: uppercase;
+}
+
+.actor-info p {
+  text-align: left;
+  font-size: 3.036vw;
+  padding: 0;
+  margin: 0;
+  font-family: 'Manrope-Regular';
+  font-weight: 300;
+  padding-bottom: 2vw;
+  text-transform: uppercase;
+}
+
+.social-icons img {
+  width: 9.8vw;
+  margin: 0;
+  margin-top: 5vw;
+  margin-right: 2vw;
+}
+
+img.actor-info-nav_absolute_imagas{
+  position: absolute;
+  right: 10vw;
+  top: -30vw;
+  width: 25.389vw;
+}
+
+img.actor-info_absolute_imagas{
+  position: absolute;
+  left: 2.5vw;
+  top: 1vw;
+  width: 10.731vw;
+}
+
+.social-number {
+  padding-top: 6.5vw;
+}
+
+.social-number p{
+  font-size: 3.3vw;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 2vw;
+  font-family: 'Manrope-Regular';
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+img.gallery_absolute_imagas{
+  position: absolute;
+  right: 30vw;
+  top: 2vw;
+  width: 10.389vw;
+}
+
+.actor-info-details{
+  color: #fff;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 4;
+  padding-left: 1vw;
+  position: relative;
+}
+
+.actor-info-film{
+  border-right: none;
+  padding-right: 0vw ;
+  padding-bottom: 10vw;
+  margin-bottom: 4vw;
+}
+
+.actor-info-film h2{
+  text-align: center;
+  font-size: 9.487vw;
+  padding: 0;
+  margin: 0;
+
+}
+
+.actor-info-film h3{
+  font-weight: 600;
+  font-size: 4vw;
+  padding-left: 13.5vw;
+}
+
+.actor-info-film p{
+  width: 75vw;
+  font-weight: 300;
+  font-size: 3.829vw;
+  padding-left: 18vw;
+}
+
+
+.actor-info-nav h2{
+  text-align: center;
+  font-size: 9.487vw;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.actor-info-nav  h3{
+  font-weight: 600;
+  font-size: 4vw;
+  padding-left: 13.5vw;
+}
+
+.actor-info-nav  p{
+  width: 75vw;
+  font-weight: 300;
+  font-size: 4.829vw;
+  margin: 0;
+  padding: 0;
+  padding-left: 18vw;
+}
+
+.gallery_info h2 {
+  font-size: 9.974vw;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin: 8vw 0;
+}
+
+.actor-info-nav {
+  padding-right: 0vw;
+}
+
+.toggle-header{
+  display: flex;
+  justify-content: center;
+  margin-top: 4vw;
+}
+
+.toggle-header span img{
+  width: 7vw;
+  padding-top: 1vw;
+  padding-left: 2vw;
+}
+
+.video{
+  display: flex;
+  position: relative;
+  flex-direction: column-reverse;
+  padding: 4vw;
+}
+
+.video h2 {
+  display: flex;
+  font-size: 9.487vw;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 4vw 0;
+  color: #fff;
+  justify-content: space-around;
+}
+
+.video iframe {
+  width: 100%;
+  height: 53.933vw;
+  padding: 0vw;
+}
+
+img.video_absolute_imagas{
+  display: none;
+}
+
+.role{
+  margin-top: 16vw;
+}
+
+}

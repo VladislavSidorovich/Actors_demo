@@ -1,0 +1,115 @@
+/* About.css */
+.about-page {
+    background-color: #111;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 3vw;
+    padding-left: 14vw;
+    font-family: 'Bebas-Neue';
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 4vw;
+  }
+  
+  .about-image{
+    width: 54.145vw;
+    height: 41.813vw;
+    margin-left: 9.5vw;
+    margin-bottom: 4vw;
+  }
+
+  .mapboxgl-ctrl-bottom-right{
+    display: none;
+  }
+
+  .mapboxgl-map div{
+    height: 0;
+  }
+  
+  .about-details {
+    width: 25vw;
+    padding-right: 5vw;
+  }
+  
+  .about-details h3 {
+    font-size: 2.487vw;
+    margin-bottom: 1vw;
+    font-family: 'Manrope-Regular';
+  }
+  
+  .about-details p {
+    font-size: 1.865vw;
+    margin-bottom: 2vw;
+    line-height: 3.5vw;
+    font-family: 'Manrope-Regular';
+    font-weight: 300;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1vw;
+  }
+  
+  .social-icons img {
+    margin-top: 3vw;
+    width: 6vw;
+    height: auto;
+    margin-right: 2vw;
+  }
+
+  @media  (max-width: 600px){
+    .about-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-top: 4vw;
+    }
+
+     
+  .about-details {
+    width: 85vw;
+    padding-left: 9vw;
+  }
+  
+  .about-details h3 {
+    font-size: 5.487vw;
+    margin-bottom: 1vw;
+    font-family: 'Manrope-Regular';
+  }
+  
+  .about-details p {
+    font-size: 3.865vw;
+    margin-bottom: 2vw;
+    line-height: 3.5vw;
+    font-family: 'Manrope-Regular';
+    font-weight: 300;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1vw;
+    text-decoration: none;
+  }
+  
+  .social-icons img {
+    margin-top: 9vw;
+    width: 9vw;
+    height: auto;
+    margin-right: 6vw;
+  }
+
+  .about-image{
+    width: 81.145vw;
+    height: 81.813vw;
+    margin-left: 9.5vw;
+    margin-bottom: 4vw;
+  }
+
+  }
